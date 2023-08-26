@@ -1,0 +1,135 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    background-color: #71276A;
+    background-image: url(../img/BG.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.company-name {
+    text-align: center;
+    margin-top: 5vh;
+    color: #71276A;
+    font-size: 40px;
+}
+#user-info { 
+    margin-left: 3%; 
+    background-color: white;
+    padding:10px;
+    font-size: 100%;
+    border-radius: 20px;
+}
+  
+#notification{ margin-right: 6vh; }
+
+#setting{ margin-right: 20px; }
+  
+#user-info { align-items: center; }
+  
+#notifications, #settings {
+    margin-left: 10px;
+    cursor: pointer;
+}
+  
+#logo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+  
+#logo-button button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+#product-list {
+    margin-top: 10vh;
+    text-align: center;
+    margin: auto;
+}
+  
+.product {
+    display: block;
+    margin: auto;
+    margin-bottom: 5vh;
+    margin-top: 7vh;
+    background-color: #d3d3d3;
+    padding: 15px;
+    width: 40vh;
+    border-radius: 20px;
+}
+  
+.product-name {
+    font-size: 18px;
+    margin-right: 5px;
+    font-size: 30px;
+    margin-right: 20px;
+    color: #71276A;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  
+.product-percentage {
+    font-size: 30px;
+    background-color: #12af00;
+    color: #ffffff;
+    padding: 6px 10px;
+    border-radius: 20px;
+}
+  
+#bottom-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #71276A;
+    padding: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.animate__animated.animate__bounce { --animate-duration: 3s; }
+
+#icons {
+    display: flex;
+    align-items: center;
+}
+  
+#icons ion-icon {
+    font-size: 24px;
+    color: #71276A;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#logo-button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    transform: scale(0.7);
+    transition: transform 0.3s ease; 
+}
+
+#logo-button button:hover { transform: scale(0.75); }
+
+#rectangle {
+    width: 100%;
+    height: 84vh; 
+    background-color: #ffffff; 
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    overflow: hidden;
+}

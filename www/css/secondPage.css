@@ -1,0 +1,104 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+    margin: 0;
+    background-color: #71276A;
+    background-image: url(../img/BG.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+  
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.company-name {
+    text-align: center;
+}
+
+#user-info { 
+    margin-left: 3%; 
+    background-color: white;
+    padding:10px;
+    font-size: 100%;
+    border-radius: 20px;
+}
+  
+#notification{ margin-right: 6vh; }
+
+#setting{ margin-right: 20px; }
+  
+#user-info { align-items: center; }
+  
+#notifications, #settings {
+    margin-left: 10px;
+    cursor: pointer;
+}
+  
+#logo-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 0;
+}
+  
+  
+#emotion-text {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #71276A;
+    padding: 2%;
+}
+
+#icons {
+    display: flex;
+    align-items: center;
+}
+  
+#icons ion-icon {
+    font-size: 24px;
+    color: #71276A;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 4px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#rectangle {
+    width: 100%;
+    height: 87.5vh; 
+    background-color: #ffffff; 
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    overflow: hidden;
+}
+
+#camera-rectangle {    
+    margin: auto;
+    margin-top: 8vh;
+    width: 90%;
+    height: 65%; 
+    background-color: rgb(255, 255, 255); 
+}
+
+#button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+#back-button button{
+    color: #71276A;
+    font-size: 20px;
+    background-color: lightgrey;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+#back-button button:hover { background-color: grey; }

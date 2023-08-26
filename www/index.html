@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <title>Evo Sense App</title>
+    </head>
+    
+    <body>
+
+        <div class="header">
+            <div id="user-info">
+                <div id="username">John Doe</div>
+            </div>
+            
+            <div id="icons">
+                <ion-icon name="notifications-outline" id="notification"></ion-icon>
+                <ion-icon name="settings-outline" id="setting"></ion-icon>
+            </div>
+        </div>
+
+        <div id="rectangle">
+
+            <h1 class="company-name">EvoSense</h1>
+
+            <div id="logo-button">
+                <button id="logo">
+                    <div class="logo-container">
+                        <a href="secondPage.html">
+                            <img src="img/logo_eyes_1.png" alt="logo">
+                        </a>
+                    </div>
+                </button>
+            </div>
+            
+            <div id="product-list">
+                <div class="product">
+                    <span class="product-name">Glasses</span> <span class="product-percentage">80%</span>
+                </div>
+    
+                <div class="product">
+                    <span class="product-name">Cane</span> <span class="product-percentage">65%</span>
+                </div>
+            </div>
+    
+            <div id="bottom-text" class="animate__animated animate__bounce">
+                Double tap to read the percentages out
+            </div>
+
+        </div>
+
+        <script>
+            function onDeviceReady() {
+                console.log("console.log works well");
+            }   
+            document.addEventListener("deviceready", onDeviceReady, false);
+        </script>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
