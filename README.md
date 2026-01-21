@@ -12,11 +12,11 @@ Evosense is a technology-driven initiative that integrates cutting-edge camera-b
 
 - **Camera Integration:** Evosense leverages advanced camera technology to capture facial expressions and non-verbal cues.
 - **Real-time Analysis:** The system processes visual data in real-time, translating it into emotional insights.
-- **Seamless Interface:** Our intuitive app ensures a user-friendly experience, catering to users of varying abilities.
+- **Seamless Interface:** Our intuitive app ensures a user-friendly experience, catering to users of varying abilities. This is still a concept, as we are having trouble with getting the ML model to run on the app.
 
 
 ## Usage
-
+#### Disclamer: The ML model could not run on the app due to problems with our backend. However, this is how the usage is supposed to go if everything was ok:
 -The first way to run is to download an emulator and open the apk file located at "platforms/android/app/build/outputs/apk/debug/app-debug.apk"
 -Good emulators for linux :
  -Waydroid
@@ -26,4 +26,4 @@ Evosense is a technology-driven initiative that integrates cutting-edge camera-b
 -Good emulators for windows:
  -Bluestacks
  -NoxPlayer
-The second way to run is to upload the apk to your android. Plug in your android to your computer and go to your operating systems respectives file manager. Access your android's file "/Internal storage/Downloads". Go to the application's file "platforms/android/app/build/outputs/apk/debug/app-debug.apk". Drag and drop this file into your phone's directory. On your android go to your files, most probably named "My Files". You will see the application, tap on it and it will work.
+The second way to run is to upload the apk to your android. Plug in your android to your computer and go to your operating systems respectives file manager. Access your android's file "/Internal storage/Downloads". Go to the application's file "platforms/android/app/build/outputs/apk/debug/app-debug.apk". Drag and drop this file into your phone's directory. On your android go to your files, most probably named "My Files". You will see the application, tap on it and it will work (if we did not have backend problems).
