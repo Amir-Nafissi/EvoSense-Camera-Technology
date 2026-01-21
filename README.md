@@ -26,4 +26,4 @@ Evosense is a technology-driven initiative that integrates cutting-edge camera-b
 -Good emulators for windows:
  -Bluestacks
  -NoxPlayer
-The second way to run is to upload the apk to your android. Plug in your android to your computer and go to your operating systems respectives file manager. Access your android's file "/Internal storage/Downloads". Go to the application's file "platforms/android/app/build/outputs/apk/debug/app-debug.apk". Drag and drop this file into your phone's directory. On your android go to your files, most probably named "My Files". You will see the application, tap on it and it will work (if we did not have backend problems).
+The second way to run is to upload the apk to your android. Plug in your android to your computer and go to your operating systems respectives file manager. Access your android's file "/Internal storage/Downloads". Go to the application's file "platforms/android/app/build/outputs/apk/debug/app-debug.apk". Drag and drop this file into your phone's directory. On your android go to your files, most probably named "My Files". You will see the application, tap on it and it will work (if the backend was working well).
